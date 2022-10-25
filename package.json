@@ -1,0 +1,22 @@
+{
+  "name": "elm-env-gen",
+  "version": "1.0.0",
+  "description": "A simple Elm module code gen from env files",
+  "bin": "./index.js",
+  "scripts": {
+    "start": "elm-codegen --flags-from=__ --output=__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolfadex/elm-env-gen.git"
+  },
+  "author": "Wolfgang Schuster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolfadex/elm-env-gen/issues"
+  },
+  "homepage": "https://github.com/wolfadex/elm-env-gen#readme",
+  "devDependencies": {
+    "elm-codegen": "^0.2.0"
+  }
+}
